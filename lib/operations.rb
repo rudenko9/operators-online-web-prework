@@ -1,9 +1,9 @@
-def unsafe?(speed = "< 40")
+def unsafe?(speed = "<=> 50")
   if speed = 79 and 79 > 60
     true
  elsif speed = 35 and 35 < 40
     true
- else speed = 40
+ else speed = 50
    false
      end
 end
